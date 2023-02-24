@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizz Buzz</title>
+
+    <style>
+
+        body {
+            background-color: blue;
+        }
+
+        #maincontainer {
+            text-align: center;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: sans-serif;
+            
+        }
+
+        h1 {
+            color: white;
+            font-size: 3em;
+        }
+
+        #list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            
+    
+        }
+
+        #list div {
+            display: flex;
+            width: calc(100% / 7 - (10px / 7 * 6));
+            border: solid 1px black;
+            padding: 8px;
+            width: 100px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <div id="maincontainer">
+
+        <h1>FizzBuzz DOM</h1>
+
+        <div id="dom">
+
+            <div id="list">
+        
+            </div>
+
+        </div>
+
+    </div>
+    
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
